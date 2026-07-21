@@ -7,7 +7,7 @@ def compute_mean_color(image):
 
 def main():
     with Plugin() as plugin:
-        with Camera("file://example.jpg") as camera:
+        with Camera() as camera:
             snapshot = camera.snapshot()
 
         # compute mean color
