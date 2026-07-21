@@ -1,12 +1,12 @@
-name: "sage-app"
+name: "app-tutorial"
 version: "0.1.0"
-description: "first sage app"
+description: "First really amazing app!"
 keywords: ""
-authors: "miguel"
+authors: "Miguel Hernandez"
 collaborators: ""
 funding: ""
 license: ""
-homepage: ""
+homepage: "https://github.com/Miguel-Hernandez1/app-tutorial.git"
 source:
   architectures:
     - "linux/amd64"
