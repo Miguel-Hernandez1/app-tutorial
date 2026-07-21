@@ -1,5 +1,4 @@
 import numpy as np
-# import cv2
 from waggle.plugin import Plugin
 from waggle.data.vision import Camera
 
@@ -7,10 +6,7 @@ def compute_mean_color(image):
     return np.mean(image, (0, 1)).astype(float)
 
 def main():
-    # read example image from file via the pywaggle Camera file:// device
-    # (no live camera on this Thor, so use the bundled still image)
     with Plugin() as plugin:
-        # open camera and take snapshot
         with Camera("file://example.jpg") as camera:
             snapshot = camera.snapshot()
 
